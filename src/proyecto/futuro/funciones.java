@@ -11,7 +11,7 @@ package proyecto.futuro;
  */
 public class funciones {
     
-     public static void veredicto (String matriculas, String horasestudio) {
+     private static void veredicto (String matriculas, String horasestudio) {
          String resultado = "";
       if (matriculas.equals(horasestudio)) {
           resultado = "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
